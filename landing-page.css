@@ -1,0 +1,162 @@
+/* Landing page section */
+
+#OuterDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.InnerDiv {
+  width: 23%;
+  height: 70%;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.InnerDiv img {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+}
+.InInnerDiv p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.InInnerDiv h1 {
+  color: rgb(76, 190, 236);
+}
+.InInnerDiv button {
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.InInnerDiv {
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+/* Form section */
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgb(43, 76, 226);
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+form h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: rgb(43, 76, 226);
+  color: white;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+/* Happy Clients Section */
+.clientimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.clientbox {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#clienttext {
+  width: 150px;
+}
+
+#clienttext p {
+  text-align: center;
+  font-size: 0.9em;
+  width: 140px;
+}
+
+#clientmain {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Navigation Bar Section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+#navDiv1,
+#navDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#forminput {
+  margin-top: 20px;
+  background-color: cornflowerblue;
+}
+
+#formbutton {
+  height: 37.5px;
+  margin-top: 4px;
+  background-color: white;
+  border-color: white;
+  color: cornflowerblue;
+}
+
+#formdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
